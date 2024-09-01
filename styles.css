@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.tabs {
+    display: flex;
+    background-color: #4CAF50;
+}
+
+.tab-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    cursor: pointer;
+    flex: 1;
+}
+
+.tab-button:hover {
+    background-color: #45a049;
+}
+
+.tab-content {
+    padding: 20px;
+}
+
+#inputTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#inputTable th, #inputTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#inputTable th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label, form input {
+    margin-bottom: 10px;
+}
