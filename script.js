@@ -1,18 +1,19 @@
 document.addEventListener('DOMContentLoaded', () => {
     const membros = JSON.parse(localStorage.getItem('membros')) || [
-        { nome: 'Galliard', xp: 951330, nivel: 57 },
-        { nome: 'Willian Vaude', xp: 814450, nivel: 53 },
+        { nome: 'Galliard', xp: 971330, nivel: 57 },
+        { nome: 'Willian Vaude', xp: 863310, nivel: 54 },
         { nome: 'Darker', xp: 544860, nivel: 43 },
-        { nome: 'Feye Vaude', xp: 531100, nivel: 43 },
-        { nome: 'Eöl', xp: 277470, nivel: 31 },
-        { nome: 'Aysha Velarion', xp: 236100, nivel: 29 },
-        { nome: 'Legolas', xp: 145200, nivel: 23 },
-        { nome: 'Kota', xp: 109200, nivel: 20 },
+        { nome: 'Feye Vaude', xp: 571550, nivel: 44 },
+        { nome: 'Eöl', xp: 282470, nivel: 31 },
+        { nome: 'Aysha Velarion', xp: 241100, nivel: 29 },
+        { nome: 'Legolas', xp: 151200, nivel: 23 },
+        { nome: 'Kota', xp: 179680, nivel: 25 },
         { nome: 'Zoro', xp: 18000, nivel: 8 },
         { nome: 'Elenion', xp: 4800, nivel: 5 },
         { nome: 'Gauriel', xp: 0, nivel: 1 },
         { nome: 'Lua', xp: 0, nivel: 1 },
         { nome: 'Alessa', xp: 0, nivel: 1 },
+        { nome: 'Kryzne', xp: 7500, nivel: 6 },
     ];
 
     const inputTableBody = document.getElementById('inputTableBody');
