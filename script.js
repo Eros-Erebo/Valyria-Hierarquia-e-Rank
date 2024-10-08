@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { nome: 'Feye Vaude', xp: 732100, nivel: 50 },
         { nome: 'Eöl', xp: 781710, nivel: 52 },
         { nome: 'Aysha Velarion', xp: 677900, nivel: 48 },
+        { nome: 'Elliot', xp: 0, nivel: 1 },
         { nome: 'Kota', xp: 290580, nivel: 32 },
         { nome: 'Zoro', xp: 68500, nivel: 16 },
         { nome: 'Elenion', xp: 4800, nivel: 5 },
@@ -13,7 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
         { nome: 'Lua', xp: 0, nivel: 1 },
         { nome: 'Alessa', xp: 3000, nivel: 4 },
         { nome: 'Kryzne', xp: 21700, nivel: 9 },
-        { nome: 'Elliot', xp: 0, nivel: 1 },
 
     ];
 
