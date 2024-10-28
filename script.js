@@ -10,8 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
         { nome: 'Elenion', xp: 4800, nivel: 5 },
         { nome: 'Lua', xp: 0, nivel: 1 },
         { nome: 'Alessa', xp: 3000, nivel: 4 },
-        { nome: 'Kanope Hassan', xp: 0, nivel: 1 },
-        { nome: 'Merlin Soon', xp: 0, nivel: 1 },
     ];
 
     const inputTableBody = document.getElementById('inputTableBody');
