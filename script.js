@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
     const membros = JSON.parse(localStorage.getItem('membros')) || [
-        { nome: 'Galliard', xp: 1389230, nivel: 69 },
-        { nome: 'Willian Vaude', xp: 1679824, nivel: 75 },
+        { nome: 'Galliard', xp: 1423030, nivel: 69 },
+        { nome: 'Willian Vaude', xp: 1683424, nivel: 75 },
         { nome: 'Feye Vaude', xp: 732100, nivel: 50 },
         { nome: 'Eöl', xp: 895670, nivel: 55 },
-        { nome: 'Aysha Velarion', xp: 781600, nivel: 52 },
+        { nome: 'Aysha Velarion', xp: 798800, nivel: 52 },
         { nome: 'Kota', xp: 308580, nivel: 33 },
         { nome: 'Zoro', xp: 68500, nivel: 16 },
         { nome: 'Elenion', xp: 4800, nivel: 5 },
