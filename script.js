@@ -1,16 +1,16 @@
 document.addEventListener('DOMContentLoaded', () => {
     const membros = JSON.parse(localStorage.getItem('membros')) || [
-        { nome: 'Galliard', xp: 1423030, nivel: 69 },
-        { nome: 'Willian Vaude', xp: 1683424, nivel: 75 },
-        { nome: 'Feye Vaude', xp: 732100, nivel: 50 },
-        { nome: 'Eöl', xp: 895670, nivel: 55 },
-        { nome: 'Aysha Velarion', xp: 798800, nivel: 52 },
-        { nome: 'Kota', xp: 308580, nivel: 33 },
-        { nome: 'Zoro', xp: 68500, nivel: 16 },
-        { nome: 'Elenion', xp: 4800, nivel: 5 },
-        { nome: 'Lua', xp: 0, nivel: 1 },
-        { nome: 'Alessa', xp: 3000, nivel: 4 },
-        { nome: 'Yuno', xp: 0, nivel: 1 },
+        { nome: 'Galliard', xp: 1498230, nivel: 71 },
+        { nome: 'Willian Vaude', xp: 1782824, nivel: 78 },
+        { nome: 'Feye Vaude', xp: 772100, nivel: 51 },
+        { nome: 'Eöl', xp: 935670, nivel: 56 },
+        { nome: 'Aysha Velarion', xp: 839200, nivel: 53 },
+        { nome: 'Kota', xp: 348580, nivel: 35 },
+        { nome: 'Zoro', xp: 108500, nivel: 20 },
+        { nome: 'Elenion', xp: 44800, nivel: 13 },
+        { nome: 'Lua', xp: 40000, nivel: 12 },
+        { nome: 'Alessa', xp: 43000, nivel: 12 },
+        { nome: 'Yuno', xp: 41400, nivel: 12 },
     ];
 
     const inputTableBody = document.getElementById('inputTableBody');
