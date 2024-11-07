@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
         { nome: 'Galliard', xp: 1498230, nivel: 71 },
         { nome: 'Willian Vaude', xp: 1782824, nivel: 78 },
         { nome: 'Feye Vaude', xp: 772100, nivel: 51 },
-        { nome: 'Eöl', xp: 935670, nivel: 56 },
         { nome: 'Aysha Velarion', xp: 839200, nivel: 53 },
         { nome: 'Kota', xp: 348580, nivel: 35 },
         { nome: 'Zoro', xp: 108500, nivel: 20 },
@@ -11,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { nome: 'Lua', xp: 40000, nivel: 12 },
         { nome: 'Alessa', xp: 43000, nivel: 12 },
         { nome: 'Yuno', xp: 41400, nivel: 12 },
+        { nome: 'Akamy Nohara', xp: 0, nivel: 1 },
     ];
 
     const inputTableBody = document.getElementById('inputTableBody');
