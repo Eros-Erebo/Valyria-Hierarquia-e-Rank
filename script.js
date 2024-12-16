@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     const membros = JSON.parse(localStorage.getItem('membros')) || [
-        { nome: 'Galliard', xp: 1810130, nivel: 78 },
         { nome: 'Willian Vaude', xp: 2544024, nivel: 93 },
         { nome: 'Aysha Velarion', xp: 1272800, nivel: 66 },
         { nome: 'Kota', xp: 1050800, nivel: 60 },
