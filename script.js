@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { nome: 'Kota', xp: 1469600, nivel: 70 },
         { nome: 'Aysha Velarion', xp: 1374800, nivel: 68 },
         { nome: 'Elenion', xp: 200800, nivel: 26 },
-        { nome: 'Zoro', xp: 108500, nivel: 20 },
+        { nome: 'Zoro', xp: 198500, nivel: 26 },
         { nome: 'Kaiser', xp: 85000, nivel: 17 },
         { nome: 'Alessa', xp: 43000, nivel: 12 },
         { nome: 'Yuno', xp: 41400, nivel: 12 },
